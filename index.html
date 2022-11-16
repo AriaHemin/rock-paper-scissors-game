@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rock paper scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="theApp" >
+        <button id="startGameButton" onclick="startRound()" >start game</button>
+        
+        <div id="roundCounter" >
+            <div class="roundCircle" id="roundCircle1"></div>
+            <div class="roundCircle" id="roundCircle2"></div>
+            <div class="roundCircle" id="roundCircle3"></div>
+            <div class="roundCircle" id="roundCircle4"></div>
+            <div class="roundCircle" id="roundCircle5"></div>
+        </div>
+        <div id="battleground" >
+            <div id="playerBox" >
+                <h1 id="playerBoxH1" style="margin: 0;">
+                    👊
+                </h1>
+                <p id="playerName" >player</p>
+            </div>
+            <div id="commentary"></div>
+            <div id="botBox"  >
+                <h1 id="botBoxH1" style="margin: 0;" >
+                    👊
+                </h1>
+                <p id="botName" >computer</p>
+            </div>
+        </div>
+        <div>
+            <button id="rockOption" onclick="setPlayerOption(1)" >
+                👊 
+            </button>
+            <button id="paperOption" onclick="setPlayerOption(2)">
+                ✋ 
+            </button>
+            <button id="scissorOption" onclick="setPlayerOption(3)" >
+                ✌
+            </button>
+        </div>
+    </div>
+</body>
+</html>

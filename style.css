@@ -1,0 +1,145 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    /*background-image: url(assets/2d94efd06dd764d52b7ab98bb1b8bda720c69693.webp);*/
+    background-color: rgb(255, 210, 61);
+    background-size: 100%;
+    padding-top: 20vh;
+
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+
+}
+
+button{
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+#theApp{
+    background-color: rgb(248, 255, 154);
+    width: 50vw;
+
+    padding: 50px;
+    border-radius: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+#battleground{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+
+#playerBox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    flex-direction: column;
+    
+}
+
+#playerName{
+    padding: 5px 10px;
+    color: rgb(55, 255, 71);
+    margin: 0;
+
+}
+
+#botBox{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+
+    flex-direction: column;
+
+}
+
+#botName{
+    padding: 5px 10px;
+    color: rgb(255, 53, 178);
+    margin: 0;
+
+}
+
+#rockOption, #paperOption, #scissorOption{
+    background-color: rgb(210, 96, 255);
+    border: 0 ;
+    border-radius: 25px;
+    padding: 8px;
+    width: 50px;
+    height: 50px;
+}   
+
+#commentary{
+    font-size: 50px;
+    
+    color: rgb(216, 118, 255);
+    text-align: center;
+
+}
+
+#startGameButton{
+    background-color: rgb(196, 47, 255);
+    border: 0;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 20px;
+
+
+
+}
+
+#roundCounter{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    margin: 20px;
+   
+}
+
+
+
+.roundCircle{
+    width: 10px;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
